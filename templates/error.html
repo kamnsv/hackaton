@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% block head %}
+	<link rel="stylesheet" href='/stat/style.css'/>
+	<script src="/stat/vue3.2.36.js"></script>
+    <title>API сервис предикта</title>
+{% endblock %}
+{% block body %}
+    <div id="app" class='app' >
+		<div class='app__content' :style="style_bg">
+		
+			<header class='app__head'>
+
+			</header>
+			
+			<main class='app__main'>
+			
+
+			</main>
+			
+			<footer class='app__foot'>
+				Камнев Сергей (с) 2022
+			</footer>
+		</div>
+</div>
+    
+    {% block script %}
+<script src="/stat/script.js"></script>
+	{% endblock %}
+{% endblock %}

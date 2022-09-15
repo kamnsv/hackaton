@@ -1,0 +1,40 @@
+kamnsv.com [Thu Sep 15 13:44:51 2022] [error] [pid 63758] src/server/wsgi_logger.c(147): [client 94.25.177.240:45192] [2022-09-15 13:44:51,867] ERROR in app: Exception on /api [GET]
+kamnsv.com [Thu Sep 15 13:44:51 2022] [error] [pid 63758] src/server/wsgi_logger.c(147): [client 94.25.177.240:45192] Traceback (most recent call last):
+kamnsv.com [Thu Sep 15 13:44:51 2022] [error] [pid 63758] src/server/wsgi_logger.c(147): [client 94.25.177.240:45192]   File "/home/c/cu99893/myenv/lib/python3.6/site-packages/flask/app.py", line 2073, in wsgi_app
+kamnsv.com [Thu Sep 15 13:44:51 2022] [error] [pid 63758] src/server/wsgi_logger.c(147): [client 94.25.177.240:45192]     response = self.full_dispatch_request()
+kamnsv.com [Thu Sep 15 13:44:51 2022] [error] [pid 63758] src/server/wsgi_logger.c(147): [client 94.25.177.240:45192]   File "/home/c/cu99893/myenv/lib/python3.6/site-packages/flask/app.py", line 1519, in full_dispatch_request
+kamnsv.com [Thu Sep 15 13:44:51 2022] [error] [pid 63758] src/server/wsgi_logger.c(147): [client 94.25.177.240:45192]     return self.finalize_request(rv)
+kamnsv.com [Thu Sep 15 13:44:51 2022] [error] [pid 63758] src/server/wsgi_logger.c(147): [client 94.25.177.240:45192]   File "/home/c/cu99893/myenv/lib/python3.6/site-packages/flask/app.py", line 1538, in finalize_request
+kamnsv.com [Thu Sep 15 13:44:51 2022] [error] [pid 63758] src/server/wsgi_logger.c(147): [client 94.25.177.240:45192]     response = self.make_response(rv)
+kamnsv.com [Thu Sep 15 13:44:51 2022] [error] [pid 63758] src/server/wsgi_logger.c(147): [client 94.25.177.240:45192]   File "/home/c/cu99893/myenv/lib/python3.6/site-packages/flask/app.py", line 1702, in make_response
+kamnsv.com [Thu Sep 15 13:44:51 2022] [error] [pid 63758] src/server/wsgi_logger.c(147): [client 94.25.177.240:45192]     f"The view function for {request.endpoint!r} did not"
+kamnsv.com [Thu Sep 15 13:44:51 2022] [error] [pid 63758] src/server/wsgi_logger.c(147): [client 94.25.177.240:45192] TypeError: The view function for 'get_api' did not return a valid response. The function either returned None or ended without a return statement.
+kamnsv.com [Thu Sep 15 13:44:51 2022] [error] [pid 63758] src/server/wsgi_logger.c(147): [client 94.25.177.240:45192]
+kamnsv.com [Thu Sep 15 13:44:59 2022] [error] [pid 67447] src/server/wsgi_logger.c(147): [client 94.25.177.240:46460] [2022-09-15 13:44:59,328] ERROR in app: Exception on /api [GET]
+kamnsv.com [Thu Sep 15 13:44:59 2022] [error] [pid 67447] src/server/wsgi_logger.c(147): [client 94.25.177.240:46460] Traceback (most recent call last):
+kamnsv.com [Thu Sep 15 13:44:59 2022] [error] [pid 67447] src/server/wsgi_logger.c(147): [client 94.25.177.240:46460]   File "/home/c/cu99893/myenv/lib/python3.6/site-packages/flask/app.py", line 2073, in wsgi_app
+kamnsv.com [Thu Sep 15 13:44:59 2022] [error] [pid 67447] src/server/wsgi_logger.c(147): [client 94.25.177.240:46460]     response = self.full_dispatch_request()
+kamnsv.com [Thu Sep 15 13:44:59 2022] [error] [pid 67447] src/server/wsgi_logger.c(147): [client 94.25.177.240:46460]   File "/home/c/cu99893/myenv/lib/python3.6/site-packages/flask/app.py", line 1519, in full_dispatch_request
+kamnsv.com [Thu Sep 15 13:44:59 2022] [error] [pid 67447] src/server/wsgi_logger.c(147): [client 94.25.177.240:46460]     return self.finalize_request(rv)
+kamnsv.com [Thu Sep 15 13:44:59 2022] [error] [pid 67447] src/server/wsgi_logger.c(147): [client 94.25.177.240:46460]   File "/home/c/cu99893/myenv/lib/python3.6/site-packages/flask/app.py", line 1538, in finalize_request
+kamnsv.com [Thu Sep 15 13:44:59 2022] [error] [pid 67447] src/server/wsgi_logger.c(147): [client 94.25.177.240:46460]     response = self.make_response(rv)
+kamnsv.com [Thu Sep 15 13:44:59 2022] [error] [pid 67447] src/server/wsgi_logger.c(147): [client 94.25.177.240:46460]   File "/home/c/cu99893/myenv/lib/python3.6/site-packages/flask/app.py", line 1702, in make_response
+kamnsv.com [Thu Sep 15 13:44:59 2022] [error] [pid 67447] src/server/wsgi_logger.c(147): [client 94.25.177.240:46460]     f"The view function for {request.endpoint!r} did not"
+kamnsv.com [Thu Sep 15 13:44:59 2022] [error] [pid 67447] src/server/wsgi_logger.c(147): [client 94.25.177.240:46460] TypeError: The view function for 'get_api' did not return a valid response. The function either returned None or ended without a return statement.
+kamnsv.com [Thu Sep 15 13:44:59 2022] [error] [pid 67447] src/server/wsgi_logger.c(147): [client 94.25.177.240:46460]
+kamnsv.com [Thu Sep 15 14:14:59 2022] [error] [pid 16922] src/server/wsgi_logger.c(147): [client 94.25.177.240:55212] [2022-09-15 14:14:59,702] ERROR in app: Exception on /api [GET]
+kamnsv.com [Thu Sep 15 14:14:59 2022] [error] [pid 16922] src/server/wsgi_logger.c(147): [client 94.25.177.240:55212] Traceback (most recent call last):
+kamnsv.com [Thu Sep 15 14:14:59 2022] [error] [pid 16922] src/server/wsgi_logger.c(147): [client 94.25.177.240:55212]   File "/home/c/cu99893/myenv/lib/python3.6/site-packages/flask/app.py", line 2073, in wsgi_app
+kamnsv.com [Thu Sep 15 14:14:59 2022] [error] [pid 16922] src/server/wsgi_logger.c(147): [client 94.25.177.240:55212]     response = self.full_dispatch_request()
+kamnsv.com [Thu Sep 15 14:14:59 2022] [error] [pid 16922] src/server/wsgi_logger.c(147): [client 94.25.177.240:55212]   File "/home/c/cu99893/myenv/lib/python3.6/site-packages/flask/app.py", line 1518, in full_dispatch_request
+kamnsv.com [Thu Sep 15 14:14:59 2022] [error] [pid 16922] src/server/wsgi_logger.c(147): [client 94.25.177.240:55212]     rv = self.handle_user_exception(e)
+kamnsv.com [Thu Sep 15 14:14:59 2022] [error] [pid 16922] src/server/wsgi_logger.c(147): [client 94.25.177.240:55212]   File "/home/c/cu99893/myenv/lib/python3.6/site-packages/flask/app.py", line 1516, in full_dispatch_request
+kamnsv.com [Thu Sep 15 14:14:59 2022] [error] [pid 16922] src/server/wsgi_logger.c(147): [client 94.25.177.240:55212]     rv = self.dispatch_request()
+kamnsv.com [Thu Sep 15 14:14:59 2022] [error] [pid 16922] src/server/wsgi_logger.c(147): [client 94.25.177.240:55212]   File "/home/c/cu99893/myenv/lib/python3.6/site-packages/flask/app.py", line 1502, in dispatch_request
+kamnsv.com [Thu Sep 15 14:14:59 2022] [error] [pid 16922] src/server/wsgi_logger.c(147): [client 94.25.177.240:55212]     return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+kamnsv.com [Thu Sep 15 14:14:59 2022] [error] [pid 16922] src/server/wsgi_logger.c(147): [client 94.25.177.240:55212]   File "/home/c/cu99893/kamnsv/app.py", line 18, in get_api
+kamnsv.com [Thu Sep 15 14:14:59 2022] [error] [pid 16922] src/server/wsgi_logger.c(147): [client 94.25.177.240:55212]     y = predict(request.get_json())
+kamnsv.com [Thu Sep 15 14:14:59 2022] [error] [pid 16922] src/server/wsgi_logger.c(147): [client 94.25.177.240:55212]   File "/home/c/cu99893/kamnsv/pred.py", line 23, in predict
+kamnsv.com [Thu Sep 15 14:14:59 2022] [error] [pid 16922] src/server/wsgi_logger.c(147): [client 94.25.177.240:55212]     name = '_'.join(map(str, x))
+kamnsv.com [Thu Sep 15 14:14:59 2022] [error] [pid 16922] src/server/wsgi_logger.c(147): [client 94.25.177.240:55212] TypeError: iteration over a 0-d array
+kamnsv.com [Thu Sep 15 14:14:59 2022] [error] [pid 16922] src/server/wsgi_logger.c(147): [client 94.25.177.240:55212]
