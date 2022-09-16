@@ -6,6 +6,9 @@ var root = {
 		params: ['param_1','param_2','param_3','param_4','param_5','param_6','param_7','param_8'],
       	values: [],
       	result: '',
+      	app_style: {
+        	fontFamily: 'FontAwesome' 
+        	}
 		}
 	},//data
 	delimiters: ['{(', ')}'],
@@ -40,13 +43,14 @@ var root = {
           	this.result = this.parse_res(content);
             console.log(content, typeof content);
         } catch(e){
-          this.result = 'Данные в не диапазона'
+          this.result = 'Ошибка сервиса'
         }
           
        })();
       },//get_pred
 	   parse_res (data) {
 			let a = 1*data;
+         	if (-1 == a) return 'Данные вне диапазона';
          	return {'0': 2, '1': 4, '2': 80}[a];
 	   }
 	},//methods
